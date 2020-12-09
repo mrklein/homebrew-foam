@@ -4,7 +4,7 @@ class Metis64 < Formula
   url "http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/metis-5.1.0.tar.gz"
   sha256 "76faebe03f6c963127dbb73c13eab58c9a3faeae48779f049066a21c087c5db2"
 
-  keg_only "Conflicts with metis formula"
+  keg_only "it conflicts with metis formula"
 
   depends_on "cmake" => :build
 

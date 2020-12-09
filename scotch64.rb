@@ -4,7 +4,7 @@ class Scotch64 < Formula
   url "https://gforge.inria.fr/frs/download.php/file/34618/scotch_6.0.4.tar.gz"
   sha256 "f53f4d71a8345ba15e2dd4e102a35fd83915abf50ea73e1bf6efe1bc2b4220c7"
   revision 1
-  keg_only "Conflicts with scotch formula"
+  keg_only "it conflicts with scotch formula"
 
   option "without-test", "skip build-time tests (not recommended)"
   deprecated_option "without-check" => "without-test"
